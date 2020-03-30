@@ -6,7 +6,21 @@ namespace Algoritmo200402
     {
         static void Main(string[] args)
         {
+            byte n;
+            do
+            {
+                Console.WriteLine("Digite o número do exercicio q deseja executar, \n ou digite numero 0(zero) pra sair");
+                n = byte.Parse(Console.ReadLine());
 
+                switch (n)
+                {
+                    case 1:
+                        Console.WriteLine("exercio 1");
+                        break;
+
+                        Console.WriteLine();
+                }
+                } while (n != 0);
         }
     }
 }
