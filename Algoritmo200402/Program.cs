@@ -15,7 +15,7 @@ namespace Algoritmo200402
                 switch (n)
                 {
                     case 1:
-                        Console.WriteLine("exercio 1");
+                        Exercicio01.Exe();
                         break;
 
                         Console.WriteLine();
