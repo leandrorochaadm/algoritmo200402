@@ -20,6 +20,9 @@ namespace Algoritmo200402
                     case 2:
                         Exercicio02.Exe();
                         break;
+                    case 3:
+                        Exercicio03.Exe();
+                        break;
 
                         Console.WriteLine();
                 }
