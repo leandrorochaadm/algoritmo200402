@@ -10,8 +10,7 @@ namespace Algoritmo200402
             "mesma é uma vogal ou consoante.A mesma deverá \n" +
             "exibir uma mensagem de erro no caso de digitação incorreta; ");
             Console.WriteLine();
-            do
-            {
+
                 Console.WriteLine("Digite uma letra");
                 letra = char.Parse(Console.ReadLine());
 
@@ -53,7 +52,6 @@ namespace Algoritmo200402
                 }
                 Console.WriteLine();
 
-            } while (true);
         }
     }
 }

@@ -12,30 +12,27 @@ namespace Algoritmo200402
             "resultado deverá ser exibido em seguida.Utilize o \n"+
             "comando escolha.");
             Console.WriteLine();
-            do
+            Console.WriteLine("Digite um número");
+            int n1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite outro número");
+            int n2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite um operação, exemplo: + - * / ");
+            string sinal = Console.ReadLine();
+
+
+            switch (sinal)
             {
-                Console.WriteLine("Digite um número");
-                int n1 = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("Digite outro número");
-                int n2 = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("Digite um operação, exemplo: + - * / ");
-                string sinal = Console.ReadLine();
-
-
-                switch (sinal)
-                {
-                    case "+": Console.WriteLine("Resultado: {0}",n1+n2); break;
-                    case "-": Console.WriteLine("Resultado: {0}",n1-n2); break;
-                    case "*": Console.WriteLine("Resultado: {0}", n1 * n2); break;
-                    case "/": Console.WriteLine("Resultado: {0}", n1 / n2); break;
+                case "+": Console.WriteLine("Resultado: {0}",n1+n2); break;
+                case "-": Console.WriteLine("Resultado: {0}",n1-n2); break;
+                case "*": Console.WriteLine("Resultado: {0}", n1 * n2); break;
+                case "/": Console.WriteLine("Resultado: {0}", n1 / n2); break;
                     
-                    default: Console.WriteLine("Operação inválida"); break;
-                }
-                Console.WriteLine();
-
-            } while (true);
+                default: Console.WriteLine("Operação inválida"); break;
+            }
+            Console.WriteLine();
+           
         }
     }
 }

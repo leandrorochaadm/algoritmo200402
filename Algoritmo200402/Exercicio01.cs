@@ -12,8 +12,7 @@ namespace Algoritmo200402
             "corresponder a um dia da semana, é exibida uma \n" +
             "mensagem de erro ");
             Console.WriteLine();
-            do
-            {
+
                 Console.WriteLine("Digite o número da semana");
                 dia = byte.Parse(Console.ReadLine());
 
@@ -29,8 +28,6 @@ namespace Algoritmo200402
                     default: Console.WriteLine("Número inválido"); break;
                 }
                 Console.WriteLine();
-
-            } while (true);
         }
     }
 }
