@@ -17,6 +17,9 @@ namespace Algoritmo200402
                     case 1:
                         Exercicio01.Exe();
                         break;
+                    case 2:
+                        Exercicio02.Exe();
+                        break;
 
                         Console.WriteLine();
                 }
